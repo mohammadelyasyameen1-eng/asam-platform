@@ -1,0 +1,2 @@
+import { z } from "zod";
+export const applicationSchema=z.object({full_name:z.string().trim().min(2).max(120),preferred_name:z.string().trim().max(80).optional(),phone:z.string().trim().min(6).max(30),university:z.string().trim().min(2).max(160),program:z.string().trim().min(2).max(160),academic_level:z.string().min(1),city:z.string().trim().min(2).max(100),state:z.string().trim().min(2).max(100),consent:z.literal("true")});

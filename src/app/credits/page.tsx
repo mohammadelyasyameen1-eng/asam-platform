@@ -1,0 +1,35 @@
+import type {Metadata} from "next";
+export const metadata:Metadata={title:"Photo credits"};
+const photos=[
+ {place:"Petronas Twin Towers, Kuala Lumpur",by:"Admiralhirohito",license:"CC0 1.0",url:"https://commons.wikimedia.org/wiki/File:The_Petronas_Towers_in_2024.jpg"},
+ {place:"Band-e-Amir, Afghanistan",by:"Carl Montgomery",license:"CC BY 2.0",url:"https://commons.wikimedia.org/wiki/File:Band-e-Amir,_Afghanistan.jpg"},
+ {place:"Darul-Aman Palace, Kabul",by:"Carl Montgomery",license:"CC BY 2.0",url:"https://commons.wikimedia.org/wiki/File:Darul-Aman_Palace_001.jpg"},
+ {place:"Herat Citadel, Afghanistan",by:"Marius Arnesen",license:"CC BY-SA 2.0",url:"https://commons.wikimedia.org/wiki/File:Herat_Citadel,_Afghanistan.jpg"},
+ {place:"Eagle Square, Langkawi",by:"Bernard Spragg. NZ",license:"CC0",url:"https://commons.wikimedia.org/wiki/File:Eagle_Square_Langkawi._(11130066275).jpg"},
+ {place:"Sultan Abdul Samad Building, Kuala Lumpur",by:"Dudva",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:Sultan_Abdul_Samad_Building,_Kuala_Lumpur.jpg"},
+ {place:"Batu Caves, Selangor",by:"Jorge Láscar",license:"CC BY 2.0",url:"https://commons.wikimedia.org/wiki/File:Batu_Caves_(18979171285).jpg"},
+ {place:"Putra Mosque, Putrajaya",by:"Iamsantanubose",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:PUTRA_MOSQUE.jpg"},
+ {place:"Blue Mosque, Mazar-i Sharif",by:"Saeedeh Joshaghani et al.",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:Blue_Mosque_(general_view),_Mazar-i_Sharif,_Afghanistan.jpg"},
+ {place:"Minaret of Jam, Ghor Province",by:"david adamec",license:"Public domain",url:"https://commons.wikimedia.org/wiki/File:Minaret_of_jam_2009_ghor.jpg"},
+ {place:"Kuala Lumpur Railway Station",by:"Gryffindor",license:"Public domain",url:"https://commons.wikimedia.org/wiki/File:Railway_station_KL_2007_010_pano.jpg"},
+ {place:"Kek Lok Si Temple, Penang",by:"Arne Müseler",license:"CC BY-SA 3.0",url:"https://commons.wikimedia.org/wiki/File:Kek_Lok_Si_1.jpg"},
+ {place:"National Mosque, Kuala Lumpur",by:"Colocho",license:"CC BY-SA 2.5",url:"https://commons.wikimedia.org/wiki/File:National_mosque,_Malaysia.JPG"},
+ {place:"National Mosque minaret, Kuala Lumpur",by:"See creator details on the source page",license:"CC BY 4.0",url:"https://commons.wikimedia.org/wiki/File:Minaret_National_Mosque_Malaysia.jpg"},
+ {place:"Merdeka 118, Kuala Lumpur",by:"Ahmad Ali Karim",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:Menara_Warisan_Merdeka,_Kuala_Lumpur_-_28_July_2020.jpg"},
+ {place:"Bala Hisar, Kabul",by:"AhmadElhan",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:Bala_Hisar.jpg"},
+ {place:"Langkawi Sky Bridge",by:"s13n1",license:"CC BY-SA 2.0",url:"https://commons.wikimedia.org/wiki/File:Langkawi_Sky_Bridge,_Malaysia.jpg"},
+ {place:"Stadthuys, Malacca",by:"Marcin Konsek",license:"CC BY-SA 4.0",url:"https://commons.wikimedia.org/wiki/File:2016_Malakka,_Stadhuys_(06).jpg"},
+ {place:"Buddha of Bamiyan",by:"James Gordon",license:"CC BY 4.0",url:"https://commons.wikimedia.org/wiki/File:Buddha_of_Bamiyan.jpg"},
+ {place:"Darul Aman Palace, Kabul",by:"ArminWenger",license:"Public domain",url:"https://commons.wikimedia.org/wiki/File:Darul_aman_palace_kabul_2006-02.JPG"},
+ {place:"Seri Saujana Bridge, Putrajaya",by:"Stefan Fussan",license:"CC BY-SA 3.0",url:"https://commons.wikimedia.org/wiki/File:Putrajaya_-_Seri_Saujana_Bridge.jpg"},
+ {place:"Kuala Lumpur skyline",by:"CEphoto, Uwe Aranas",license:"CC BY-SA 3.0",url:"https://commons.wikimedia.org/wiki/File:Kuala_Lumpur_Malaysia_Skyline-03.jpg"},
+ {place:"Zahir Mosque, Alor Setar",by:"Ecoblueprint",license:"CC BY 2.0",url:"https://commons.wikimedia.org/wiki/File:Masjid_zahir,_alor_setar.jpg"},
+ {place:"Penang Bridge",by:"calflier001",license:"CC BY-SA 2.0",url:"https://commons.wikimedia.org/wiki/File:PENANG_BRIDGE_MALAYSIA_JAN_2012.jpg"},
+ {place:"Band-e-Amir, Afghanistan",by:"Carl Montgomery",license:"CC BY 2.0",url:"https://commons.wikimedia.org/wiki/File:Lake_Band-e-Amir.jpg"},
+ {place:"Arg (Afghan Presidential Palace), Kabul",by:"U.S. Army Staff Sgt. Nicole Mejia / U.S. Department of Defense",license:"Public domain (U.S.)",url:"https://commons.wikimedia.org/wiki/File:200229-D-AP390-1529_(49603221753).jpg"},
+ {place:"Restored Darul Aman Palace, Kabul",by:"Qasimmirzaie",license:"CC BY 4.0",url:"https://commons.wikimedia.org/wiki/File:Darulaman_palace.jpg"},
+ {place:"Afghan radio journalist at work",by:"Cpl Mark Doran / U.S. Department of Defense",license:"Public domain (U.S.)",url:"https://commons.wikimedia.org/wiki/File:Afghan_journalist_Qudratulla_Samin_smiles_for_a_photo_while_broadcasting_from_the_temporary_facilities_of_the_Tarin_Kowt_Radio_and_Television_Station_in_Tarin_Kowt,_Uruzgan_province,_Afghanistan,_May_30,_2013_130530-O-MD709-045.jpg"},
+ {place:"Students collaborating around a laptop",by:"Vitaly Gariev",license:"Unsplash License",url:"https://unsplash.com/photos/diverse-group-of-students-gathered-around-a-laptop-8gAbl776pc0"},
+ {place:"Customer support team at work",by:"BaljkanN 4",license:"Unsplash License",url:"https://unsplash.com/photos/a-smiling-woman-wearing-a-headset-at-a-computer-wnpf3Q5pkXA"}
+];
+export default function Credits(){return <><section className="page-hero" data-landmark="credits"><div className="container page-hero-inner"><span className="eyebrow">ASAM · image sources</span><h1>Photo credits.</h1><p>Landmark and community photographs are credited to their creators below. Each entry links to its source and license details.</p></div></section><section className="section"><div className="container credits-list">{photos.map(p=><article className="credit-row card" key={p.url}><div><b>{p.place}</b><p>Photo by {p.by} · {p.license}</p></div><a className="inline-link" href={p.url} target="_blank" rel="noreferrer">View original and license ↗</a></article>)}</div></section></>}
